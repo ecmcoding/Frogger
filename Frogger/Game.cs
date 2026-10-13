@@ -1,11 +1,17 @@
 class Game
 {
-    private Board board;
+    private IBoard board;
+    private IRenderer renderer;
 
-    public Game(int rows, int cols)
+    public Game(IBoard board, IRenderer renderer)
     {
-        board = new Board(rows, cols);
-        board.Print();
+        this.board = board;
+        this.renderer = renderer;
+    }
+
+    public void Render()
+    {
+        renderer.Draw(board);
     }
 
 }

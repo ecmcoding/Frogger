@@ -1,4 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-new Game(5, 5);
+IBoard board = new Board(null!);
+board.BoardSize(10, 10);
+
+IRenderer renderer = new GameRenderer();
+
+Game game = new Game(board, renderer);
+game.Render();

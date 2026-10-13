@@ -1,22 +1,28 @@
-public class Board
+class Board : IBoard
 {
-    private char[,] board;
-    string Piece = "🌱";
+    IBoard board;
+    public int Width { get; private set; }
+    public int Height { get; private set; }
 
-    public Board(int rows, int cols)
+    public Board(IBoard board)
     {
-        board = new char[rows, cols];
+        this.board = board;
     }
 
-    public void Print()
+    public void BoardSize(int width, int height)
     {
-        for (int i = 0; i < board.GetLength(0); i++)
-        {
-            for (int j = 0; j < board.GetLength(1); j++)
-            {
-                Console.Write(board[i, j] + Piece);
-            }
-            Console.WriteLine();
-        }
+        this.Width = width;
+        this.Height = height;
     }
+
+    // Testing method to make every cell inside the board unoccupied
+    public bool IsInside(int x, int y) => x >= 0 && x < Width && y >= 0 && y < Height;
+    public bool IsOccupied(int x, int y) => false;
+
+    //public bool IsInside(int x, int y) => board.IsInside(x, y);
+    //public bool IsOccupied(int x, int y) => board.IsOccupied(x, y);
+
+    //public void AddEntity(IEntity entity) => board.AddEntity(entity);
+    //public void RemoveEntity(IEntity entity) => board.RemoveEntity(entity);
+    //public IEnumerable<IEntity> GetEntities() => board.GetEntities();
 }
