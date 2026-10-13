@@ -8,11 +8,11 @@ class GameRenderer : IRenderer
             {
                 if (board.IsOccupied(x, y))
                 {
-                    Console.Write("🌱");
+                    Console.Write("⬜");
                 }
                 else
                 {
-                    Console.Write("⬜");
+                    Console.Write("🌱");
                 }
             }
             Console.WriteLine();
