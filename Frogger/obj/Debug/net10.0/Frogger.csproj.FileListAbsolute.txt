@@ -1,0 +1,15 @@
+/home/e/Desktop/Frogger/Frogger/bin/Debug/net10.0/Frogger
+/home/e/Desktop/Frogger/Frogger/bin/Debug/net10.0/Frogger.deps.json
+/home/e/Desktop/Frogger/Frogger/bin/Debug/net10.0/Frogger.runtimeconfig.json
+/home/e/Desktop/Frogger/Frogger/bin/Debug/net10.0/Frogger.dll
+/home/e/Desktop/Frogger/Frogger/bin/Debug/net10.0/Frogger.pdb
+/home/e/Desktop/Frogger/Frogger/obj/Debug/net10.0/Frogger.GeneratedMSBuildEditorConfig.editorconfig
+/home/e/Desktop/Frogger/Frogger/obj/Debug/net10.0/Frogger.AssemblyInfoInputs.cache
+/home/e/Desktop/Frogger/Frogger/obj/Debug/net10.0/Frogger.AssemblyInfo.cs
+/home/e/Desktop/Frogger/Frogger/obj/Debug/net10.0/Frogger.csproj.CoreCompileInputs.cache
+/home/e/Desktop/Frogger/Frogger/obj/Debug/net10.0/Frogger.sourcelink.json
+/home/e/Desktop/Frogger/Frogger/obj/Debug/net10.0/Frogger.dll
+/home/e/Desktop/Frogger/Frogger/obj/Debug/net10.0/refint/Frogger.dll
+/home/e/Desktop/Frogger/Frogger/obj/Debug/net10.0/Frogger.pdb
+/home/e/Desktop/Frogger/Frogger/obj/Debug/net10.0/Frogger.genruntimeconfig.cache
+/home/e/Desktop/Frogger/Frogger/obj/Debug/net10.0/ref/Frogger.dll
